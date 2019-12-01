@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{box-sizing: border-box;}
+
+h1
+		{ color: #8C06FF;
+		text-align: center;
+			
+	}
+header{
+	padding:0;
+}
+.Container::after {
+ 	clear: both;
+  	display: table;
+	overflow: auto;
+	background-color: #957BA8;
+}
+.picturebox{
+	box-sizing: border-box;
+	float:left;
+	width: 30%;
+	
+
+}
+.textbox{
+	float:left;
+	width: 70%;
+}
+.text{
+	padding-left: 2%;
+	font-size: 18px;
+	
+}
+.section{
+	clear: left;
+}
+.clearfix::after {
+ 	content: "";
+ 	clear: both;
+  	display: table;
+	overflow: auto;
+}
